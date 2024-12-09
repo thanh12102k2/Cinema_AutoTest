@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="159" failures="14" name="TestSuite" time="1.21" errors="0" skipped="145">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\Desktop\CinemaTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\CinemaTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\Admin\Downloads\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;C:\MinGW\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Admin\AppData\Local\Programs\Python\Python38;C:\Users\Admin\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 9.0\bin;C:\Users\Admin\Downloads\apache-maven-3.6.3\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\PyCharm 2023.3\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3\bin;;C:\Users\Admin\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Admin\.dotnet\tools;C:\src\flutter\flutter\bin;C:\Program Files\MySQL\MySQL Server 9.0\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.4\bin;;."/>
+    <property name="maven.conf" value="C:\Users\Admin\Downloads\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="66.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Admin\Downloads\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\Users\Admin\Downloads\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Admin\Downloads\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="cinema.testcases.admin.CastTest" name="initializeTestBaseSetup" time="0.572">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@735b478
+</system-out>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="setup" time="0.572">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="LogInTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="openCastPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="addCastPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="updateCastPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="deleteCastPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="sortAndSearchTypeGenre" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="addCastBlankNamePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="closeBrowser" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CastTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="initializeTestBaseSetup" time="0.003">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="setup" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="openCinemaPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="addCinemaPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="updateCinemaPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="deleteCinemaPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="sortAndSearchNameCinemaPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="addCinemaBlankPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CinemaTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="LogInTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="openComboPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="addComboPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="updateComboPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="deleteComboPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="sortAndSearchNameComboPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="addBlankComboPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ComboTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="setup" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="openCouponPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="addCouponPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="updateCouponPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="deleteCouponPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="sortAndSearchNameCouponPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="addBlankCouponPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="addCouponEndDateLessStartDatePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.CouponTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="initializeTestBaseSetup" time="0.001">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="openDirectorPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="addDirectorPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="updateDirectorPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="deleteDirectorPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="sortAndSearchNameDirectorPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="addDirectorBlankNamePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.DirectorTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="initializeTestBaseSetup" time="0.001">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="setup" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="openGenrePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="addGenrePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="updateGenrePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="deleteGenrePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="sortAndSearchGenrePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="addGenreAvailPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="addGenreBlankPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.GenreTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="initializeTestBaseSetup" time="0.001">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="setup" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="LoginAdminWithInvalidEmail" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="LoginAdminWithInvalidPassword" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="LoginAdminWithBlankEmail" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="LoginAdminWithBlankPassword" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="LoginAdminWithBlankPAccount" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="TestPasswordVisibility" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.LogInAdminTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="initializeTestBaseSetup" time="0.001">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="openMoviePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="addMoviePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="updateMoviePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="deleteMoviePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="addBlankMoviePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="closeBrowser" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.MovieTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="setup" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="openNewsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="addNewsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="updateNewsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="deleteNewsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="sortAndSearchNameNewsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="addBlankNewsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="closeBrowser" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.NewsTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="openRegionPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="addRegionPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="updateRegionPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="deleteRegionPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="sortAndSearchRegionPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="addRegionAvailPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="addRegionBlankPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.RegionTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="LogInTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="openScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="addScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="updateScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="viewScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="deleteScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="sortAndSearchNameScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="addBlankScreenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ScreenTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="openShowTimePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="addShowTimePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="searchShowTimePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="updateShowTimePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="deleteShowTimePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="addBlankShowTimePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.ShowTimeTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="openTicketPricePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="addTicketPricePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="updateTicketPricePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="deleteTicketPricePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="sortAndSearchNameTicketPricePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="addBlackTicketPricePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="addTicketPriceInvalidPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="closeBrowser" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.TicketPriceTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="initializeTestBaseSetup" time="0.002">
+    <failure message="
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+" type="org.testng.TestNGException">org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by BeforeClass on method initializeTestBaseSetup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="setup" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="LogInTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="openUserPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="addUserPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="updateUserPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="deleteUserPage" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="sortAndSearchNameUserPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="addUserBlankPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="addInvalidUserPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="closeBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="cinema.testcases.admin.UserTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

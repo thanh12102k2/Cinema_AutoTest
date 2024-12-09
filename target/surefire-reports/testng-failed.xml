@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="cinema.testcases.admin.CouponTest">
+        <methods>
+          <include name="updateCouponPage"/>
+          <include name="sortAndSearchNameCouponPage"/>
+          <include name="setup"/>
+          <include name="deleteCouponPage"/>
+          <include name="addBlankCouponPage"/>
+          <include name="addCouponEndDateLessStartDatePage"/>
+          <include name="tearDown"/>
+          <include name="LogInTest"/>
+          <include name="closeBrowser"/>
+          <include name="addCouponPage"/>
+          <include name="openCouponPage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.CouponTest -->
+      <class name="cinema.testcases.admin.RegionTest">
+        <methods>
+          <include name="openRegionPage"/>
+          <include name="deleteRegionPage"/>
+          <include name="addRegionPage"/>
+          <include name="updateRegionPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="addRegionAvailPage"/>
+          <include name="addRegionBlankPage"/>
+          <include name="LogInTest"/>
+          <include name="sortAndSearchRegionPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.RegionTest -->
+      <class name="cinema.testcases.admin.DirectorTest">
+        <methods>
+          <include name="LogInTest"/>
+          <include name="closeBrowser"/>
+          <include name="sortAndSearchNameDirectorPage"/>
+          <include name="addDirectorBlankNamePage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="deleteDirectorPage"/>
+          <include name="openDirectorPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="addDirectorPage"/>
+          <include name="updateDirectorPage"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.DirectorTest -->
+      <class name="cinema.testcases.admin.UserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="addUserPage"/>
+          <include name="sortAndSearchNameUserPage"/>
+          <include name="LogInTest"/>
+          <include name="deleteUserPage"/>
+          <include name="setup"/>
+          <include name="addInvalidUserPage"/>
+          <include name="openUserPage"/>
+          <include name="updateUserPage"/>
+          <include name="tearDown"/>
+          <include name="addUserBlankPage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.UserTest -->
+      <class name="cinema.testcases.admin.TicketPriceTest">
+        <methods>
+          <include name="LogInTest"/>
+          <include name="sortAndSearchNameTicketPricePage"/>
+          <include name="openTicketPricePage"/>
+          <include name="addBlackTicketPricePage"/>
+          <include name="addTicketPricePage"/>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="updateTicketPricePage"/>
+          <include name="deleteTicketPricePage"/>
+          <include name="addTicketPriceInvalidPage"/>
+          <include name="setup"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.TicketPriceTest -->
+      <class name="cinema.testcases.admin.CastTest">
+        <methods>
+          <include name="setup"/>
+          <include name="addCastPage"/>
+          <include name="openCastPage"/>
+          <include name="sortAndSearchTypeGenre"/>
+          <include name="deleteCastPage"/>
+          <include name="closeBrowser"/>
+          <include name="updateCastPage"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="LogInTest"/>
+          <include name="addCastBlankNamePage"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.CastTest -->
+      <class name="cinema.testcases.admin.GenreTest">
+        <methods>
+          <include name="setup"/>
+          <include name="deleteGenrePage"/>
+          <include name="updateGenrePage"/>
+          <include name="openGenrePage"/>
+          <include name="addGenrePage"/>
+          <include name="addGenreAvailPage"/>
+          <include name="tearDown"/>
+          <include name="sortAndSearchGenrePage"/>
+          <include name="addGenreBlankPage"/>
+          <include name="LogInTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.GenreTest -->
+      <class name="cinema.testcases.admin.MovieTest">
+        <methods>
+          <include name="openMoviePage"/>
+          <include name="setup"/>
+          <include name="addBlankMoviePage"/>
+          <include name="closeBrowser"/>
+          <include name="deleteMoviePage"/>
+          <include name="addMoviePage"/>
+          <include name="tearDown"/>
+          <include name="updateMoviePage"/>
+          <include name="LogInTest"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.MovieTest -->
+      <class name="cinema.testcases.admin.ScreenTest">
+        <methods>
+          <include name="LogInTest"/>
+          <include name="addBlankScreenPage"/>
+          <include name="deleteScreenPage"/>
+          <include name="sortAndSearchNameScreenPage"/>
+          <include name="openScreenPage"/>
+          <include name="addScreenPage"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="viewScreenPage"/>
+          <include name="updateScreenPage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.ScreenTest -->
+      <class name="cinema.testcases.admin.LogInAdminTest">
+        <methods>
+          <include name="TestPasswordVisibility"/>
+          <include name="closeBrowser"/>
+          <include name="LoginAdminWithBlankPAccount"/>
+          <include name="LoginAdminWithBlankEmail"/>
+          <include name="LogInTest"/>
+          <include name="LoginAdminWithInvalidPassword"/>
+          <include name="tearDown"/>
+          <include name="LoginAdminWithBlankPassword"/>
+          <include name="setup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="LoginAdminWithInvalidEmail"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.LogInAdminTest -->
+      <class name="cinema.testcases.admin.NewsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="sortAndSearchNameNewsPage"/>
+          <include name="addBlankNewsPage"/>
+          <include name="LogInTest"/>
+          <include name="updateNewsPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="deleteNewsPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="addNewsPage"/>
+          <include name="openNewsPage"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.NewsTest -->
+      <class name="cinema.testcases.admin.ShowTimeTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="searchShowTimePage"/>
+          <include name="setup"/>
+          <include name="LogInTest"/>
+          <include name="openShowTimePage"/>
+          <include name="updateShowTimePage"/>
+          <include name="addShowTimePage"/>
+          <include name="tearDown"/>
+          <include name="addBlankShowTimePage"/>
+          <include name="deleteShowTimePage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.ShowTimeTest -->
+      <class name="cinema.testcases.admin.ComboTest">
+        <methods>
+          <include name="updateComboPage"/>
+          <include name="deleteComboPage"/>
+          <include name="addComboPage"/>
+          <include name="sortAndSearchNameComboPage"/>
+          <include name="setup"/>
+          <include name="openComboPage"/>
+          <include name="tearDown"/>
+          <include name="LogInTest"/>
+          <include name="addBlankComboPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.ComboTest -->
+      <class name="cinema.testcases.admin.CinemaTest">
+        <methods>
+          <include name="setup"/>
+          <include name="addCinemaPage"/>
+          <include name="deleteCinemaPage"/>
+          <include name="openCinemaPage"/>
+          <include name="updateCinemaPage"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="sortAndSearchNameCinemaPage"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="addCinemaBlankPage"/>
+          <include name="LogInTest"/>
+        </methods>
+      </class> <!-- cinema.testcases.admin.CinemaTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

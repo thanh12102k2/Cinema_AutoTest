@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+<parameter name="browserType" value="chrome"/>
+<parameter name="webURL" value="http://localhost:3000/login/admin"/>
+<test thread-count="5" name="CinemaTest">
+    <classes>
+        <class name="cinema.testcases.admin.LogInAdminTest">
+        </class>
+        <class name="cinema.testcases.admin.SalesTest">
+        </class>
+        <class name="cinema.testcases.admin.UserTest">
+        </class>
+        <class name="cinema.testcases.admin.MovieTest">
+        </class>
+        <class name="cinema.testcases.admin.CinemaTest">
+        </class>
+        <class name="cinema.testcases.admin.ScreenTest">
+        </class>
+<!--        <class name="cinema.testcases.admin.ShowTimeTest">-->
+<!--        </class>-->
+        <class name="cinema.testcases.admin.OrderTest">
+        </class>
+<!--        <class name="cinema.testcases.admin.TicketPriceTest">-->
+<!--        </class>-->
+            <!--Ticket Price đã được add hết cần xóa trong db để có thể add thêm-->
+
+        <class name="cinema.testcases.admin.CouponTest">
+        </class>
+        <class name="cinema.testcases.admin.NewsTest">
+        </class>
+        <class name="cinema.testcases.admin.GenreTest">
+        </class>
+        <class name="cinema.testcases.admin.RegionTest">
+        </class>
+        <class name="cinema.testcases.admin.DirectorTest">
+        </class>
+        <class name="cinema.testcases.admin.CastTest">
+        </class>
+        <class name="cinema.testcases.admin.ComboTest">
+        </class>
+    </classes>
+</test>
+</suite>
